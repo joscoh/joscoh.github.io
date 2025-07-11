@@ -50,20 +50,21 @@
         I am especially interested in ways of combining automated and interactive proof methods to make program verification easier without sacrificing foundational guarantees.
       </p>
       <p>
-        In my thesis, I developed a verified compiler for the <a href="https://www.why3.org/">Why3</a> intermediate verification language, with the eventual goal of a foundationally verified, SMT-based C program verifier.
-        Previously, I have worked on verifying an error-correction system for network packets written in C using Coq and the <a href="http://vst.cs.princeton.edu/">Verified Software Toolchain</a>, as well as briefly on verified numerical methods as part of the <a href="https://verinum.org/">VeriNum</a> project.
+        In my thesis, I developed a verified compiler for the <a href="https://www.why3.org/">Why3</a> intermediate verification language.
+        Previously, I verified a real-world error-correction system for network packets written in C using Coq and the <a href="http://vst.cs.princeton.edu/">Verified Software Toolchain</a>.
+        <!-- Prior to grad school, I worked with Stephanie Weirich on verifying Haskell code in Coq using <a href="https://github.com/plclub/hs-to-coq">hs-to-coq</a> and with Sanjeev Khanna on distributed graph algorithms. -->
+        </p>
+
+        <!-- <p>
+        I received my BA in math and computer science and my MSE in computer science from the University of Pennsylvania in 2020. During my time at Penn, I worked with Stephanie Weirich on verifying Haskell code in Coq using <a href="https://github.com/plclub/hs-to-coq">hs-to-coq</a> and with Sanjeev Khanna on distributed graph algorithms.
+        </p> -->
+
+        <p>
+          From 2022-2025, I was an intern at <a href="https://proof.sandia.gov/">Sandia National Labs</a>, where I formalized the semantics of Why3 in Coq.
         </p>
 
         <p>
-        I received my BA in math and computer science and my MSE in computer science from the University of Pennsylvania in 2020. During my undergrad, I worked with Stephanie Weirich on verifying Haskell code in Coq using hs-to-coq and with Sanjeev Khanna on distributed graph algorithms.
-        </p>
-
-        <p>
-          Since summer 2022, I have interned at Sandia National Labs, where I have worked on a formalization of the Why3 intermediate verification language in Coq.
-        </p>
-
-        <p>
-        In summer 2021, I was an Applied Scientist Intern with the AWS Identity Automated Reasoning Group, where I used Dafny to verify parts of the IAM policy evaluator.
+        In summer 2021, I was an Applied Scientist Intern in the AWS Identity Automated Reasoning Group, where I used Dafny to verify parts of the IAM policy evaluator.
         </p>
       </div>
     </div>
@@ -72,16 +73,16 @@
           <h1>Publications</h1>
           <ul>
             <li> 
-              <b> Joshua M. Cohen</b>. <b> A Mechanized First-Order Theory of Algebraic Data Types with Pattern Matching.</b> <i> ITP 2025: 16th International Conference on Interactive Theorem Proving</i>, September 2025. To appear.</li>
+              <b> Joshua M. Cohen</b>. <b> A Mechanized First-Order Theory of Algebraic Data Types with Pattern Matching.</b> <i> ITP 2025: 16th International Conference on Interactive Theorem Proving</i>, September 2025. <a href="docs/ADTTheory.pdf">pdf</a> <a href="https://github.com/joscoh/why3-semantics/tree/itp25">code</a></li>
             <li> Aleks Chakarov, Jaco Geldenhuys, ... <b>Joshua Cohen*</b>, ...
             <b>Formally Verified Cloud-Scale Authorization.</b> <i>ICSE 2025: 47th IEEE/ACM International Conference on Software Engineering</i>, May 2025. <a href="https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00166">doi</a>
             </li>
             <li>
               <b>Joshua M. Cohen</b>. <b>Implementing OCaml APIs in Coq.</b> <i>CoqPL 2025: The Eleventh International Workshop on Coq for Programming Languages</i>, January 2025. 
-              <a href="https://popl25.sigplan.org/details/CoqPL-2025-papers/12/Implementing-OCaml-APIs-in-Coq">workshop</a> <a href="docs/CoqOCamlAPI.pdf">pdf</a> <a href="docs/CoqPL25_slides.pdf">slides</a> 
+              <a href="https://popl25.sigplan.org/details/CoqPL-2025-papers/12/Implementing-OCaml-APIs-in-Coq">workshop</a> <a href="docs/CoqOCamlAPI.pdf">pdf</a> <a href ="https://github.com/joscoh/coq-ocaml-api">code</a> <a href="docs/CoqPL25_slides.pdf">slides</a> 
             </li>
             <li>
-              <b> Joshua M. Cohen</b> and Philip Johnson-Freyd. <b> A Formalization of Core Why3 in Coq. </b> <i> POPL 2024: 51st ACM SIGPLAN Symposium on Principles of Programming Languages</i>, January 2024. <a href="https://doi.org/10.1145/3632902">doi</a> <a href="docs/Why3Formalization.pdf">pdf</a> <a href="https://github.com/joscoh/why3-semantics">code</a> <a href="docs/POPL24_slides.pdf">slides</a>
+              <b> Joshua M. Cohen</b> and Philip Johnson-Freyd. <b> A Formalization of Core Why3 in Coq. </b> <i> POPL 2024: 51st ACM SIGPLAN Symposium on Principles of Programming Languages</i>, January 2024. <a href="https://doi.org/10.1145/3632902">doi</a> <a href="docs/Why3Formalization.pdf">pdf</a> <a href="https://github.com/joscoh/why3-semantics/tree/popl-24">code</a> <a href="docs/POPL24_slides.pdf">slides</a>
             </li>
             <li>
               <b> Joshua M. Cohen</b> and Andrew W. Appel. <b> Specifying and Verifying a Real-World Packet Error-Correction System. </b><i> VSTTE 2023: 15th International Conference on Verified Software: Theories, Tools, and Experiments</i>, October 2023. <a href="https://doi.org/10.1007/978-3-031-66064-1_4">doi</a> <a href="docs/SpecPaper.pdf">pdf</a> <a href="https://github.com/verified-network-toolchain/Verified-FEC/tree/end-to-end/proofs/FEC">code</a> <a href="docs/VSTTE23_slides.pdf">slides</a>
@@ -99,7 +100,7 @@
           <h1>PhD Thesis</h1>
           <ul>
             <li>
-              <b> A Foundationally Verified Intermediate Verification Language.</b> Princeton University. May 2025. <a href="docs/thesis.pdf">pdf</a>  <a href="https://github.com/joscoh/why3-semantics">code</a> <a href="docs/thesis_slides.pdf">slides</a>
+              <b> A Foundationally Verified Intermediate Verification Language.</b> Princeton University. May 2025. <a href="http://arks.princeton.edu/ark:/88435/dsp01nz806311z">dataspace</a> <a href="docs/thesis.pdf">pdf</a>  <a href="https://github.com/joscoh/why3-semantics">code</a> <a href="docs/thesis_slides.pdf">slides</a>
             </li>
           </ul>
         </section>
